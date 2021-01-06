@@ -6,6 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="flyway-business" />
+        <module name="flywaychannel" />
+        <module name="flywaycontent" />
+        <module name="flywaymember" />
+        <module name="flywayquestion" />
+        <module name="flywaystudy" />
         <module name="passjava-channel" />
         <module name="passjava-content" />
         <module name="passjava-member" />
@@ -14,8 +20,17 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="flyway-business" target="1.8" />
+      <module name="flyway-content" target="1.8" />
+      <module name="flyway-study" target="1.8" />
+      <module name="flywaychannel" target="1.8" />
+      <module name="flywaycontent" target="1.8" />
+      <module name="flywaymember" target="1.8" />
+      <module name="flywayquestion" target="1.8" />
+      <module name="flywaystudy" target="1.8" />
       <module name="passjava-channel" target="1.8" />
       <module name="passjava-content" target="1.8" />
+      <module name="passjava-flyway" target="1.8" />
       <module name="passjava-member" target="1.8" />
       <module name="PassJava-Platform" target="1.5" />
       <module name="passjava-question" target="1.8" />
